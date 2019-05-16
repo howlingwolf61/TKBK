@@ -1,0 +1,2 @@
+cd $HOME/Malicious
+python2 malicious.py

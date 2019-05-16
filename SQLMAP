@@ -1,0 +1,25 @@
+cd $HOME/sqlmap
+
+R='\033[1;91m'
+Y='\033[1;92m'
+S='\033[1;93m'
+M='\033[1;94m'
+P='\033[1;95m'
+CG='\033[1;96m'
+B='\033[1;97m'
+
+echo $R'   ________    __   __  ______   ___'
+echo $R'  / __/ __ \  / /  /  |/  / _ | / _ \'
+echo $R' _\ \/ /_/ / / /__/ /|_/ / __ |/ ___/'
+echo $R'/___/\___\_\/____/_/  /_/_/ |_/_/'
+echo $S''
+
+read -p "Site URL'si Gir Yada Yardım için (-h) Yaz > " url
+if [ $url = -h ]; then
+
+python2 sqlmap.py -h
+
+else
+read -p 'Yapmak İstediğin İşlem (örn. -dbs vb.) > ' command
+python2 sqlmap.py -u $url $commamd
+fi
