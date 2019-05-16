@@ -1,1 +1,2 @@
-# kbk
+# KBK
+# (Kolay Başlatıcı Kurulumu)
