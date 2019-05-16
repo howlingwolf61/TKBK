@@ -11,7 +11,7 @@ CG='\033[1;96m'
 B='\033[1;97m'
 
 os.system('clear')
-os.system('sh kbk/banner.sh')
+os.system('sh banner.sh')
 os.system('sleep 1')
 os.system('cd $HOME && rm -rf kbk')
 
