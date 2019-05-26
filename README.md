@@ -1,1 +1,1 @@
-#           KBK (Kolay Başlatıcı Kurulumu)
+#           TKBK (Termux Kolay Başlatıcı Kurulumu)
